@@ -1,4 +1,6 @@
-# Manual Setup Guide for Kamailio with PostgreSQL for Kazoo/2600Hz
+# kamailio-configs - Manual Setup Guide for Kamailio with PostgreSQL for Kazoo/2600Hz
+
+OpenKazoo Configuration Files
 
 This guide will help you manually set up a Kamailio Session Border Controller (SBC) with PostgreSQL for Kazoo/2600Hz. Since the 2600hz provided database for kamailio (Kazoo_DB) is not open source, we have to replace it with PostgreSQL.
 
