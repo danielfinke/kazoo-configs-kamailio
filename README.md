@@ -269,19 +269,6 @@ Configure your postgres connection
 #!substdef "!KAZOO_DB_URL!postgres://kamailio:your_secure_password@127.0.0.1/kamailio!g"
 ```
 
-Set your SIP bindings:
-```conf
-#!substdef "!UDP_SIP!udp:MY_IP_ADDRESS:5060!g"
-#!substdef "!TCP_SIP!tcp:MY_IP_ADDRESS:5060!g"
-#!substdef "!UDP_ALG_SIP!udp:MY_IP_ADDRESS:7000!g"
-#!substdef "!TCP_ALG_SIP!tcp:MY_IP_ADDRESS:7000!g"
-
-listen=UDP_SIP
-listen=TCP_SIP
-listen=UDP_ALG_SIP
-listen=TCP_ALG_SIP
-```
-
 ## 7. Configure Logging
 
 ### Configure rsyslog
