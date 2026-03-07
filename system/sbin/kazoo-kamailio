@@ -214,12 +214,12 @@ convert_size() {
 }
 
 init_database() {
-    ${DB_SCRIPT_DIR}/create-kazoodb-sql.sh
+    mkdir -p ${DB_LOCATION}
     check_database
 }
 
 check_database() {
-    ${DB_SCRIPT_DIR}/check-kazoodb-sql.sh
+    : # Do nothing
 }
 
 start() {
